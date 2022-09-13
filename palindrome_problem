@@ -1,0 +1,11 @@
+let count = 0;
+for(let i = 0; i<=N-1; i++){
+     if(str[N-(i+1)]===str[i]){
+         count++;
+         
+      }
+    }if (count=N/2){
+     console.log("Yes it is Palindrome");
+    }else{
+        console.log("No it is not a Palindrome");
+    }
